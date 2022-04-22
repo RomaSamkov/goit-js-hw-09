@@ -16,3 +16,16 @@ img {
   display: block;
   max-width: 100%;
 }
+button {
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(102, 255, 0);
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+button:focus,
+button:hover {
+  background-color: tomato;
+  box-shadow: 2px 2px 2px 1px rgba(106, 106, 109, 0.2);
+}
