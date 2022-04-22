@@ -18,14 +18,36 @@ img {
 }
 button {
   border: none;
-  border-radius: 50%;
-  background-color: rgb(100, 255, 0);
+  border-radius: 20px;
+  background-color: rgb(0, 255, 242);
   padding: 10px 30px;
   font-size: 16px;
 }
 
 button:focus,
 button:hover {
-  background-color: tomato;
+  background-color: rgb(71, 203, 255);
   box-shadow: 2px 2px 2px 1px rgba(106, 106, 109, 0.2);
+}
+.timer {
+  display: flex;
+  margin-top: 10px;
+  width: 280px;
+}
+
+.field+.field {
+  margin-left: 5px;
+}
+
+.value {
+  margin-left: auto;
+  font-size: 40px;
+  font-weight: 500;
+  color: #70295b;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 200;
+  color: #082472;
 }
