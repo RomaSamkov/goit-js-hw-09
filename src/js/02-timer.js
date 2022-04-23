@@ -12,7 +12,7 @@ const refs = {
 };
 
 let selectedTime = null;
-refs.startBtn.disabled = true;
+refs.startBtn.setAttribute('disabled', '');
 
 const options = {
   enableTime: true,
@@ -26,7 +26,7 @@ const options = {
         Notify.failure('Please choose a date in the future')
       }
       else {
-        refs.startBtn.disabled = false;
+        refs.startBtn.removeAttribute('disabled');
       }
   },
 };
